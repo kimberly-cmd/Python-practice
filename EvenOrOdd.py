@@ -1,7 +1,6 @@
-x = input("Enter a number: ")
-y = int(x)
+x = int(input("Enter a number: "))
 #To test for if the number is odd or even
-if y%2 == 0:
+if x%2 == 0:
     print("The number is even")
 else:
     print("The number is odd")
